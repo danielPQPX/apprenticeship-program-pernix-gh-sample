@@ -1,35 +1,5 @@
 # Escenarios para Tic-Tac-Toe
 
-## Test-Driven Development (TDD)
-
-### Test: Inicio del Juego
-- Dado: El jugador abre la aplicación.
-- Cuando: Se inicia una nueva partida.
-- Entonces: La cuadrícula de 3x3 debe estar vacía.
-- Y: Se debe poder elegir entre jugar como "X" o "O".
-- Y: El turno actual debe mostrarse correctamente.
-
-### Test: Realizar un Movimiento
-- Dado: El jugador selecciona una casilla vacía.
-- Cuando: Hace clic en la casilla.
-- Entonces: Debe colocarse su marca ("X" o "O").
-- Y: El turno debe pasar al otro jugador.
-
-### Test: Determinar un Ganador
-- Dado: Dos jugadores están jugando Tic-Tac-Toe.
-- Cuando: Un jugador logra alinear tres de sus marcas en una fila, columna o diagonal.
-- Entonces: El juego debe declarar al jugador como ganador.
-
-### Test: Empate
-- Dado: Todas las casillas están llenas y no hay alineación de tres marcas consecutivas.
-- Cuando: El último movimiento se realiza.
-- Entonces: El juego debe declarar un empate.
-
-### Test: Reiniciar el Juego
-- Dado: El jugador ha terminado un juego.
-- Cuando: El jugador hace clic en el botón de reiniciar.
-- Entonces: El tablero debe restablecerse a una cuadrícula vacía.
-
 ## Behavior-Driven Development (BDD)
 
 ### Escenario: Inicio del Juego
